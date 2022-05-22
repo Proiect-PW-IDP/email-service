@@ -26,13 +26,4 @@ public class EmailServiceImpl {
         logger.info("Mail sent at " + interestDTO.getUserOfferEmail());
     }
 
-   /* public void sendEmailForSomeoneProvided(InterestDTO interestDTO) {
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setTo(adminRestaurantEmail);
-        message.setSubject("Continue registration as an admin for " + confirmationToken.getRestaurant().getRestaurantName());
-        message.setText("Please go to htttp://localhost:8080/restaurant-admin/" + confirmationToken.getToken());
-        emailSender.send(message);
-        logger.info("Mail sent at " + adminRestaurantEmail);
-    }*/
-
 }
